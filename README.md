@@ -1,6 +1,6 @@
 # Teste de integração com a API da Gerencianet
 
-Código adaptado de https://github.com/wellingtonf-souza/api_gerencianet.
+Código adaptado de https://github.com/hnovais95/test_api_gerencianet.
 
 Integração simples com os serviços de emissão de boletos, cobraça no cartão de cŕedito e geração de carnê, geração de assinatura e consulta de cobranças da Gerencianet.
 
