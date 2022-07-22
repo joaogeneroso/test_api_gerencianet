@@ -2,7 +2,7 @@
 
 Código adaptado de https://github.com/wellingtonf-souza/api_gerencianet.
 
-Integração simples com os serviços de emissão de boletos, cobraça no cartão de cŕedito e geração de carnê da Gerencianet.
+Integração simples com os serviços de emissão de boletos, cobraça no cartão de cŕedito e geração de carnê, geração de assinatura e consulta de cobranças da Gerencianet.
 
 ## Descrição
 
