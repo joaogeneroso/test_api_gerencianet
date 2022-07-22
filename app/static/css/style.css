@@ -1,0 +1,204 @@
+body {
+  font-family: "myriad-arabic", sans-serif;
+}
+.bt {
+  height: 120px;
+}
+
+.btn.btn-destaque {
+  border: none;
+  border-color: transparent;
+  background-color: #f26522;
+  *background-color: #f26522;
+  background-image: -moz-linear-gradient(top, #fff, #e6e7e8);
+  background-image: -webkit-gradient(
+    linear,
+    0 0,
+    0 100%,
+    from(#fff),
+    to(#e6e7e8)
+  );
+  background-image: -webkit-linear-gradient(top, #fff, #e6e7e8);
+  background-image: -o-linear-gradient(top, #fff, #e6e7e8);
+  background-image: linear-gradient(to bottom, #fff, #e6e7e8);
+}
+
+.btn-warning {
+  background-color: #f26522;
+}
+
+.nav.navbar-nav.pull-right li:nth-child(2) a {
+  text-align: center;
+  display: block;
+  color: #fff;
+  padding: 7px 11px;
+  border-radius: 3px;
+  border: 2px solid #00b4c5;
+  line-height: 1em;
+  margin: 15px 15px 0;
+  background: #00b4c5;
+}
+.container-fluid {
+  font-family: "Bebas Neue";
+  font-size: 1.8em;
+  display: block;
+  padding: 10px 15px;
+}
+.theme-line .navbar-nav a {
+  color: #00b4c5;
+}
+.theme-line .navbar-nav a {
+  color: #bbb;
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding: 0;
+  }
+
+  .navbar-brand img {
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+}
+
+#footer {
+  font-family: myriad-arabic, sans-serif !important;
+  font-size: 1.2em !important;
+  line-height: 1.2em;
+}
+
+button {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.2em !important;
+  margin: 0;
+}
+
+.btn img {
+  margin-left: 0.5em;
+}
+
+.label-inputs {
+  font-family: "myriad-arabic", sans-serif;
+  font-size: 2em;
+}
+
+.content-blocks {
+  margin-top: 8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.dis_10 {
+  margin-top: 20px;
+}
+
+#rodape {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.div-right-error {
+  border-right: 1px solid #dfdfdf;
+  padding-right: 10rem;
+}
+
+.div-right-error h2 {
+  max-width: 19em;
+}
+
+.div-right-error p {
+  font-size: 1.8em;
+  max-width: 19em;
+  line-height: 1.2em;
+}
+
+.atributo {
+  color: #009615;
+  font-size: 15px;
+}
+
+em {
+  color: #009615;
+}
+
+.dev {
+  font-size: 16px;
+}
+
+@media (max-width: 1250px) {
+  #rodape {
+    position: relative;
+  }
+}
+
+/* @media (max-height: 1070px) {
+  #rodape {
+    position: relative;
+  }
+} */
+
+.table-carnet {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 30%;
+  display: table;
+  border: 1px solid #ccc;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.table-carnet tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.table-carnet tr:nth-child(odd) {
+  background-color: #fff;
+}
+.table-carnet tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.table-carnet td,
+.table-carnet th {
+  padding: 8px 8px;
+  display: table-cell;
+  vertical-align: top;
+}
+
+.table-carnet th:first-child {
+  text-align: left;
+  justify-content: center;
+}
+.table-carnet th:last-child {
+  text-align: center;
+}
+
+.table-carnet th:first-child,
+.table-carnet td:first-child {
+  padding-left: 16px;
+}
+
+.table-carnet {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.div-right-index {
+  border-right: 1px solid #dfdfdf;
+  padding-right: 2rem;
+}
+
+.div-right-index h2 {
+  max-width: 12em;
+}
+
+.div-right-index p {
+  font-size: 1.8em;
+  max-width: 12em;
+  line-height: 1.2em;
+}

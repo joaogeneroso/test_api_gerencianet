@@ -1,0 +1,30 @@
+{% extends "template.html" %}
+
+{% block conteudo %}
+<div class="content-blocks" style = 'display:block'>
+    <div style='display:flex; justify-content:center; align-items:center'>
+        <h2>Informações recebidas com sucesso</h2>
+        <img 
+        style = 'height: 5em; margin-left: 10px;'
+        src="{{url_for('static',filename='img/success.png')}}">
+    </div>
+
+    <div class="content-blocks" style = 'margin-top:5em'>
+    <table class = 'table-carnet'>
+        <tr>
+            <th>Status da transaçao</th>
+            <th>{{status}}</th>
+        </tr>
+    </table>
+    </div>
+    <div class="content-blocks" style = 'margin-top:1em'>
+        <table class = 'table-carnet'>
+            <tr>
+                <th>Nome do Produto</th>
+                <th>{{name}}</th>
+            </tr>
+        </table>
+        </div>
+</div>
+
+{% endblock %}

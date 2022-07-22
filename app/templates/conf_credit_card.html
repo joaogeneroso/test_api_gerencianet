@@ -1,0 +1,21 @@
+{% extends "template.html" %}
+
+{% block conteudo %}
+<div class="content-blocks" style = 'display:block'>
+    <div style='display:flex; justify-content:center; align-items:center'>
+        <h2>Cobrança criada com sucesso</h2>
+        <img 
+        style = 'height: 5em; margin-left: 10px;'
+        src="{{url_for('static',filename='img/success.png')}}">
+    </div>
+
+    <div class="content-blocks" style = 'margin-top:5em'>
+        <a href="#" style = 'margin-right: 15px' onclick="copyCode()">
+            <input style='display:none' value = '{{copy}}' id = 'copy'>
+            <span title='Copiar charge_id'>
+                <img style = 'height: 5em' src="{{url_for('static',filename='img/copy.png')}}">
+            </span>
+        </a>
+    </div>
+</div>
+{% endblock %}
